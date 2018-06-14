@@ -1,0 +1,25 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="HRM:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/HRM_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="HRM/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HRM" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="ant-1.9.6" />
+          <element id="library" level="project" name="junit-4.11" />
+          <element id="library" level="project" name="lib" />
+          <element id="library" level="project" name="Spring-4.3.16.RELEASE" />
+          <element id="library" level="project" name="Spring MVC-4.3.16.RELEASE" />
+          <element id="library" level="project" name="jackson-annotations-2.4.0" />
+          <element id="library" level="project" name="junit-4.10" />
+          <element id="library" level="project" name="validation-api-1.0.0.GA" />
+          <element id="library" level="project" name="aspectjweaver-1.6.9" />
+          <element id="library" level="project" name="jackson-annotations-2.9.5" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
